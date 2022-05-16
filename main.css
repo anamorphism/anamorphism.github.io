@@ -1,7 +1,10 @@
 :root {
   --background-primary: #1c1c1f;
+  --spacing-large: 6rem;
+  --spacing-small: 2rem;
   --text-link: #aaddff;
-  --text-muted: #acacaf;
+  --text-link-muted: #5a8daf;
+  --text-muted: #acaca0;
   --text-primary: #fcfcf0;
 }
 
@@ -13,15 +16,19 @@ body {
   background: var(--background-primary);
   color: var(--text-primary);
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
-  margin: 2rem 6rem;
+  margin: var(--spacing-small) var(--spacing-large);
 }
 
 footer {
   color: var(--text-muted);
   font-size: small;
-  margin-top: 6rem;
+  margin-top: var(--spacing-large);
+}
+
+footer a {
+  color: var(--text-link-muted);
 }
 
 main {
-  margin: 2rem;
+  margin: var(--spacing-small);
 }
