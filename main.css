@@ -1,0 +1,27 @@
+:root {
+  --background-primary: #1c1c1f;
+  --text-link: #aaddff;
+  --text-muted: #acacaf;
+  --text-primary: #fcfcf0;
+}
+
+a {
+  color: var(--text-link);
+}
+
+body {
+  background: var(--background-primary);
+  color: var(--text-primary);
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  margin: 2rem 6rem;
+}
+
+footer {
+  color: var(--text-muted);
+  font-size: small;
+  margin-top: 6rem;
+}
+
+main {
+  margin: 2rem;
+}
