@@ -32,3 +32,24 @@ footer a {
 main {
   margin: var(--spacing-small);
 }
+
+nav li, nav li ul, nav li ul li {
+  display: inline-block;
+  padding: 0;
+}
+
+nav li::before {
+  content: "| ";
+}
+
+nav li:first-of-type::before {
+  content: none;
+}
+
+nav li ul li:first-of-type::before {
+  content: "(";
+}
+
+nav li ul li:last-of-type::after {
+  content: ")";
+}
