@@ -46,6 +46,10 @@ nav li:first-of-type::before {
   content: none;
 }
 
+nav li ul li::before {
+  content: "- ";
+}
+
 nav li ul li:first-of-type::before {
   content: "(";
 }
